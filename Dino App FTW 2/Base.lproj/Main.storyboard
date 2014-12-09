@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fkT-JK-V6C">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
@@ -13,6 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="frw-kS-PaF"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="mVc-mk-62a">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jck-sT-Acb">
@@ -195,6 +196,7 @@
                         <viewControllerLayoutGuide type="bottom" id="nqE-R2-z72"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="du2-wS-dNL">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -214,6 +216,7 @@
                         <viewControllerLayoutGuide type="bottom" id="6Yz-9H-CtK"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Yrj-Hr-uqc">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -233,6 +236,7 @@
                         <viewControllerLayoutGuide type="bottom" id="gbw-8C-Ynr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="k41-Rh-x58">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pfS-fc-1iY">
@@ -304,7 +308,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="V7n-BW-y3U" kind="relationship" relationship="rootViewController" id="vv4-He-AjN"/>
+                        <segue destination="V7n-BW-y3U" kind="relationship" relationship="rootViewController" id="3to-u3-27J"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YcM-CV-GHN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -320,6 +324,7 @@
                         <viewControllerLayoutGuide type="bottom" id="jCD-ha-WDh"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fBX-ZX-oaw">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -339,6 +344,7 @@
                         <viewControllerLayoutGuide type="bottom" id="avQ-Jb-to9"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="9mB-0m-qWi">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -358,6 +364,7 @@
                         <viewControllerLayoutGuide type="bottom" id="DE7-Do-c2n"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kuL-6S-Cv4">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -377,6 +384,7 @@
                         <viewControllerLayoutGuide type="bottom" id="C9D-Cr-PVg"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="RR8-cf-r8D">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
