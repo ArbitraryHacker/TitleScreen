@@ -122,7 +122,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="224" y="223" width="32" height="30"/>
+                                    <rect key="frame" x="352" y="223" width="32" height="30"/>
                                 </variation>
                                 <connections>
                                     <segue destination="W87-R1-UlF" kind="show" id="hcP-o5-9qS"/>
@@ -134,18 +134,18 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="225" y="185" width="30" height="30"/>
+                                    <rect key="frame" x="354" y="178" width="30" height="30"/>
                                 </variation>
                                 <connections>
                                     <segue destination="N8r-oD-NP7" kind="show" id="Saz-AI-FAG"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Prehistoric Conquest" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gIH-go-I5h">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Prehistoric Conquest" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gIH-go-I5h">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="heightClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="123" y="86" width="234" height="30"/>
+                                    <rect key="frame" x="251" y="96" width="234" height="30"/>
                                 </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g0d-61-Zpv">
@@ -154,14 +154,14 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="212" y="261" width="57" height="30"/>
+                                    <rect key="frame" x="341" y="273" width="57" height="30"/>
                                 </variation>
                                 <connections>
                                     <segue destination="xXZ-pg-G10" kind="show" id="qaS-yX-fsb"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.76831585929887469" green="0.77537089650000002" blue="0.35306479868166885" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="txO-Tq-Li0"/>
@@ -181,7 +181,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="EPb-jL-jAD"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XyE-XK-U9O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -301,7 +301,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fkT-JK-V6C" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dfI-y0-gTQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
