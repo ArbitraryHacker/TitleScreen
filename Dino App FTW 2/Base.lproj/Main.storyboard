@@ -113,7 +113,7 @@
                         <viewControllerLayoutGuide type="bottom" id="fDF-sQ-H35"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1Wc-XY-vnb">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="txO-Tq-Li0">
@@ -122,22 +122,10 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="352" y="223" width="32" height="30"/>
+                                    <rect key="frame" x="224" y="232" width="32" height="30"/>
                                 </variation>
                                 <connections>
                                     <segue destination="W87-R1-UlF" kind="show" id="hcP-o5-9qS"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oTI-id-Nzk">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Play">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="354" y="178" width="30" height="30"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="N8r-oD-NP7" kind="show" id="Saz-AI-FAG"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Prehistoric Conquest" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gIH-go-I5h">
@@ -145,7 +133,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="heightClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="251" y="96" width="234" height="30"/>
+                                    <rect key="frame" x="123" y="92" width="234" height="30"/>
                                 </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g0d-61-Zpv">
@@ -154,10 +142,22 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="341" y="273" width="57" height="30"/>
+                                    <rect key="frame" x="212" y="270" width="57" height="30"/>
                                 </variation>
                                 <connections>
                                     <segue destination="xXZ-pg-G10" kind="show" id="qaS-yX-fsb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oTI-id-Nzk">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="224" y="194" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="N8r-oD-NP7" kind="show" id="Saz-AI-FAG"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -165,23 +165,23 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="txO-Tq-Li0"/>
-                                <exclude reference="oTI-id-Nzk"/>
                                 <exclude reference="gIH-go-I5h"/>
                                 <exclude reference="g0d-61-Zpv"/>
+                                <exclude reference="oTI-id-Nzk"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
                             <mask key="subviews">
                                 <include reference="txO-Tq-Li0"/>
-                                <include reference="oTI-id-Nzk"/>
                                 <include reference="gIH-go-I5h"/>
                                 <include reference="g0d-61-Zpv"/>
+                                <include reference="oTI-id-Nzk"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="EPb-jL-jAD"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XyE-XK-U9O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -301,7 +301,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fkT-JK-V6C" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dfI-y0-gTQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -313,7 +313,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YcM-CV-GHN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="334" y="-744"/>
+            <point key="canvasLocation" x="164" y="-744"/>
         </scene>
         <!--Ep3 View Controller-->
         <scene sceneID="G5f-O7-dRo">
