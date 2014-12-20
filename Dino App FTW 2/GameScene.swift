@@ -17,17 +17,35 @@ class GameScene: SKScene {
         /* Called when a touch begins */
         
                }
-    enum states
+    @IBAction func attack()
     {
-        case defend
-        
-        case dodge
-        
+        battle.attack(atkDinoNum:0)
     }
     
+    func defend()
+    {
+        playerDino.state = .defend
+        battle.attack(atkDinoNum:1)
+    }
+    
+    func dodge()
+    {
+        playerDino.state = .dodge
+        battle.attack(atkDinoNum:1)
+    }
+}
+
+enum states
+{
+    case defend
+    
+    case dodge
+    
+    case none
+}
     struct Dinosaur
     {
-        var attack:Int, HP:Double, speed:Int, addAttack:Int, addHP:Int, addSpeed:Int, state:states, description:String, image:UIImage
+        var attack:Int, HP:Double, speed:Int, state:states, description:String, image:UIImage
     }
     
     
@@ -74,7 +92,6 @@ class GameScene: SKScene {
                 
             case .dodge :
                 multiplier *= getRandomNumber(range:0...100) <= defDino.speed + defDino.addSpeed ? 0 : 1
-                //being a bawse
             default :
                 break
             }
@@ -82,8 +99,4 @@ class GameScene: SKScene {
             defDino.HP = defDino.HP - (Double)(atkDino.attack + atkDino.addAttack) * multiplier
             return defDino.HP <= 0 ? true : false
         }
-
     }
-   
-   
-}

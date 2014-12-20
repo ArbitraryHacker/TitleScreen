@@ -31,5 +31,8 @@ class GameViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Release any cached data, images, etc that aren't in use.
     }
-
+    @IBAction func attack()
+    {
+        battle.attack(atkDinoNum:0)
+    }
 }
