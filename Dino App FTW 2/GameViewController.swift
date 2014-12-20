@@ -31,6 +31,7 @@ var battle:Battle = Battle(dino1:alectrosaurus, dino2:sarcosuchus)
 
 class GameViewController: UIViewController
 {
+    @IBOutlet var userMessage: UILabel!
     @IBOutlet var dinoImg1: UIImageView!
     @IBOutlet var dinoImg2: UIImageView!
     @IBOutlet var dinoHealth1: UILabel!
@@ -55,19 +56,28 @@ class GameViewController: UIViewController
         if battle.attack(atkDinoNum:0, defDinoHealthLabel: &dinoHealth2)
         {
             battle.win()
+            userMessage.text = "You Have Won"
         }
     }
     
     @IBAction func defend()
     {
         battle.setDinoState(dinoNum:0, state:.defend)
-        battle.attack(atkDinoNum:1, defDinoHealthLabel: &dinoHealth1)
+        if battle.attack(atkDinoNum:1, defDinoHealthLabel: &dinoHealth1)
+        {
+            battle.win()
+            userMessage.text = "You Have Lost"
+        }
     }
     
     @IBAction func dodge()
     {
         battle.setDinoState(dinoNum:0, state:.dodge)
-        battle.attack(atkDinoNum:1, defDinoHealthLabel: &dinoHealth1)
+        if battle.attack(atkDinoNum:1, defDinoHealthLabel: &dinoHealth1)
+        {
+            battle.win()
+            userMessage.text = "You Have Lost"
+        }
     }
 }
 
@@ -143,6 +153,7 @@ class Battle
             defDinoHealthLabel.text = String(format:"%.1f", defDino.HP)
             atkDino.turn = false
             defDino.turn = true
+            
             switch atkDinoNum
             {
                 case 0 :
@@ -160,7 +171,7 @@ class Battle
             }
             return defDino.HP <= 0 ? true : false
         }
-        return false
+        return defDino.HP <= 0 ? true : false
     }
     
     func setDinoState(#dinoNum:Int, state:states)
@@ -186,5 +197,6 @@ class Battle
         dino2.HP = dino2.HP < 0 ? 0 : dino2.HP
         dino1.turn = false
         dino2.turn = false
+        
     }
 }
