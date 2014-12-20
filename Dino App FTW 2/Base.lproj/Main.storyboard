@@ -160,6 +160,18 @@
                                     <segue destination="N8r-oD-NP7" kind="show" id="Saz-AI-FAG"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X72-Hu-kGW">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="21" y="270" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="sd1-Mp-G5J" kind="show" id="d3f-G7-h5e"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.76831585929887469" green="0.77537089650000002" blue="0.35306479868166885" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
@@ -168,6 +180,7 @@
                                 <exclude reference="gIH-go-I5h"/>
                                 <exclude reference="g0d-61-Zpv"/>
                                 <exclude reference="oTI-id-Nzk"/>
+                                <exclude reference="X72-Hu-kGW"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -176,6 +189,7 @@
                                 <include reference="gIH-go-I5h"/>
                                 <include reference="g0d-61-Zpv"/>
                                 <include reference="oTI-id-Nzk"/>
+                                <include reference="X72-Hu-kGW"/>
                             </mask>
                         </variation>
                     </view>
@@ -235,18 +249,32 @@
                                     <rect key="frame" x="177" y="145" width="155" height="30"/>
                                 </variation>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OHJ-ZT-w39">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="51" y="251" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="fle-3F-Jto" kind="show" id="Jc3-dr-0LK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="syB-nd-E81"/>
                                 <exclude reference="YPf-Zz-pBM"/>
+                                <exclude reference="OHJ-ZT-w39"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
                             <mask key="subviews">
                                 <include reference="syB-nd-E81"/>
                                 <include reference="YPf-Zz-pBM"/>
+                                <include reference="OHJ-ZT-w39"/>
                             </mask>
                         </variation>
                     </view>
@@ -455,7 +483,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JPF-Ag-6oE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="874" y="-3184.5"/>
+            <point key="canvasLocation" x="1568" y="-48"/>
         </scene>
         <!--Ep3 View Controller-->
         <scene sceneID="G5f-O7-dRo">
@@ -561,27 +589,6 @@
                                     <rect key="frame" x="240" y="0.0" width="240" height="320"/>
                                 </variation>
                             </imageView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zan-Qq-Gzu">
-                                <rect key="frame" x="0.0" y="-2" width="150" height="2"/>
-                                <variation key="heightClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="10" y="28" width="220" height="2"/>
-                                </variation>
-                            </progressView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qcY-2h-13B">
-                                <rect key="frame" x="0.0" y="-2" width="150" height="2"/>
-                                <variation key="heightClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="250" y="28" width="220" height="2"/>
-                                </variation>
-                            </progressView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Of6-2F-lHL">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Dodge">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="210" y="260" width="60" height="30"/>
-                                </variation>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVz-Py-KvH">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Defend">
@@ -590,6 +597,9 @@
                                 <variation key="heightClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="330" y="260" width="60" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="defend" destination="sd1-Mp-G5J" eventType="touchUpInside" id="yP6-JM-oj4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YaZ-UE-rSS">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -603,37 +613,73 @@
                                     <action selector="attack" destination="sd1-Mp-G5J" eventType="touchUpInside" id="aPM-jB-YDv"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AFN-da-Eys">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="78" width="100" height="50"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Of6-2F-lHL">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Dodge">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="210" y="260" width="60" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="dodge" destination="sd1-Mp-G5J" eventType="touchUpInside" id="3Qe-xN-9WQ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SW1-Ja-SYn">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="290" y="72" width="100" height="50"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Plh-SF-bLz"/>
                                 <exclude reference="vg4-jQ-kwv"/>
-                                <exclude reference="zan-Qq-Gzu"/>
-                                <exclude reference="qcY-2h-13B"/>
-                                <exclude reference="Of6-2F-lHL"/>
                                 <exclude reference="eVz-Py-KvH"/>
                                 <exclude reference="YaZ-UE-rSS"/>
+                                <exclude reference="AFN-da-Eys"/>
+                                <exclude reference="Of6-2F-lHL"/>
+                                <exclude reference="SW1-Ja-SYn"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
                             <mask key="subviews">
                                 <include reference="Plh-SF-bLz"/>
                                 <include reference="vg4-jQ-kwv"/>
-                                <include reference="zan-Qq-Gzu"/>
-                                <include reference="qcY-2h-13B"/>
-                                <include reference="Of6-2F-lHL"/>
                                 <include reference="eVz-Py-KvH"/>
                                 <include reference="YaZ-UE-rSS"/>
+                                <include reference="AFN-da-Eys"/>
+                                <include reference="Of6-2F-lHL"/>
+                                <include reference="SW1-Ja-SYn"/>
                             </mask>
                         </variation>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="dinoHealth1" destination="AFN-da-Eys" id="Lrm-QQ-AWm"/>
+                        <outlet property="dinoHealth2" destination="SW1-Ja-SYn" id="4Yc-RP-cxM"/>
+                        <outlet property="dinoImg1" destination="Plh-SF-bLz" id="2bj-Tz-3iS"/>
+                        <outlet property="dinoImg2" destination="vg4-jQ-kwv" id="HDr-ZW-dQS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p46-W6-ZBt" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="334" y="-37.5"/>
+            <point key="canvasLocation" x="370" y="7.5"/>
         </scene>
     </scenes>
 </document>
