@@ -160,18 +160,6 @@
                                     <segue destination="N8r-oD-NP7" kind="show" id="Saz-AI-FAG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X72-Hu-kGW">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="21" y="270" width="46" height="30"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="sd1-Mp-G5J" kind="show" id="d3f-G7-h5e"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.76831585929887469" green="0.77537089650000002" blue="0.35306479868166885" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
@@ -180,7 +168,6 @@
                                 <exclude reference="gIH-go-I5h"/>
                                 <exclude reference="g0d-61-Zpv"/>
                                 <exclude reference="oTI-id-Nzk"/>
-                                <exclude reference="X72-Hu-kGW"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -189,7 +176,6 @@
                                 <include reference="gIH-go-I5h"/>
                                 <include reference="g0d-61-Zpv"/>
                                 <include reference="oTI-id-Nzk"/>
-                                <include reference="X72-Hu-kGW"/>
                             </mask>
                         </variation>
                     </view>
@@ -212,14 +198,38 @@
                     <view key="view" contentMode="scaleToFill" id="du2-wS-dNL">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBa-ge-MgT">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="306" y="119" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="sd1-Mp-G5J" kind="show" id="Skt-La-BOL"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="dBa-ge-MgT"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <include reference="dBa-ge-MgT"/>
+                            </mask>
+                        </variation>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3qT-hq-k5d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="334" y="-1407"/>
+            <point key="canvasLocation" x="371" y="-1407"/>
         </scene>
         <!--Help View Controller-->
         <scene sceneID="wCm-a7-ePB">
@@ -698,7 +708,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p46-W6-ZBt" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="495" y="-177"/>
+            <point key="canvasLocation" x="835" y="-2061"/>
         </scene>
     </scenes>
 </document>
